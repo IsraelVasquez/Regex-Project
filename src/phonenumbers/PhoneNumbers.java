@@ -34,8 +34,6 @@ public class PhoneNumbers {
 
             System.out.println("you phone number is: " + "(" + F + ")" + S + "-" + T);
 
-            System.out.println("your phone number is: " + "(" + F + ")" + S + "-" + T);
-
         }
         else
         {
