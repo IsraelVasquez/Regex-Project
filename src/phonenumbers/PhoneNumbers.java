@@ -30,7 +30,7 @@ public class PhoneNumbers {
             String F = check.group(2);
             String S = check.group(4);
             String T = check.group(6);
-            System.out.println("you have: " + "(" + F + ")" + S + "-" + T);
+            System.out.println("your phone number is: " + "(" + F + ")" + S + "-" + T);
         }
         
         
