@@ -18,6 +18,7 @@ public class PhoneNumbers {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a phone number:");
         String pNumberIn = sc.next();
@@ -30,11 +31,19 @@ public class PhoneNumbers {
             String F = check.group(2);
             String S = check.group(4);
             String T = check.group(6);
-            System.out.println("you have: " + "(" + F + ")" + S + "-" + T);
+            System.out.println("you phone number is: " + "(" + F + ")" + S + "-" + T);
+        }
+        else
+        {
+            System.out.println("ERROR: Please enter a valid phone number");
+            
         }
         
         
         
     }
+
+        
+    
     
 }
