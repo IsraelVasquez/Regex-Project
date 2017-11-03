@@ -32,6 +32,11 @@ public class PhoneNumbers {
             String T = check.group(6);
             System.out.println("your phone number is: " + "(" + F + ")" + S + "-" + T);
         }
+        else
+        {
+            System.out.println("ERROR: Please enter a valid phone number");
+            
+        }
         
         
         
